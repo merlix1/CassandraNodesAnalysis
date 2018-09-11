@@ -1,0 +1,23 @@
+
+Import python
+https://www.python.org/downloads/
+Check python can be executed.
+
+Then run following commands:
+python -mpip install -U pip
+python -mpip install -U matplotlib
+
+Then open python IDE.
+Do File->Open, find xavCassandraNodeAnalysis.
+
+Edit path to refer to your files:
+
+path=['C:/Pega_Doc/python/Logs/3502/before-AFO-i-3502-15.txt',\
+      'C:/Pega_Doc/python/Logs/3503/before-AFO-i-3503-16.txt',\
+      'C:/Pega_Doc/python/Logs/3504/before-AFO.txt',\
+      'C:/Pega_Doc/python/Logs/3505/before-AFO.txt',\
+      'C:/Pega_Doc/python/Logs/4171/before-AFO.txt'
+      ]
+
+
+do "F5" to run it.
