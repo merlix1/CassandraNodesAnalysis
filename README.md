@@ -1,6 +1,6 @@
 # CassandraNodesAnalysis
 
-Note: this version was designed to parse only a Cassandra keyspace called "data". Code changes needed to select keyspace desired.
+
 
 In a context of a performance issue related to Cassandra, it is good to check if nodes are unbalanced.
 
@@ -12,9 +12,9 @@ I attach below a rough utility to parse cftats logs. There are much better tool 
 
  
 
-Please also note the utility is showing only data in the "data" keyspace ( keyspace being similar to schema in relational database). The "data" keyspace is used by PRPC. There are other keyspaces used internally by Cassandra but they shouldn't matter from a PRPC perspective.
+Please also note the utility is showing only data in the "data" keyspace ( keyspace being similar to schema in relational database) used in my projects.
 
-If you don't see the expected table then it's possible the wrong keyspace was picked up by the utility. Then let me know and I will have a look. It never happened to me but this could happen if the formatting changes.
+If you don't see the expected table then it's possible the wrong keyspace was picked up by the utility. 
 
  
 
