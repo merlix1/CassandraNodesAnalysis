@@ -1,5 +1,7 @@
 # CassandraNodesAnalysis
 
+Note: this version was designed to parse only a Cassandra keyspace called "data". Code changes needed to select keyspace desired.
+
 In a context of a performance issue related to Cassandra, it is good to check if nodes are unbalanced.
 
 Cassandra provide a command "nodetool cfstats". This helps but in the context of numerous node it gets tedious to check this log for each node and do comparison.
