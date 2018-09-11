@@ -7,11 +7,11 @@ path=[]
 
 
 
-path=['C:/PegaDoc/python/Logs/3502/before-AFO-i-3502-15.txt',\
-      'C:/PegaDoc/python/Logs/3503/before-AFO-i-3503-16.txt',\
-      'C:/PegaDoc/python/Logs/3504/before-AFO.txt',\
-      'C:/PegaDoc/python/Logs/3505/before-AFO.txt',\
-      'C:/PegaDoc/python/Logs/4171/before-AFO.txt'
+path=['C:/python/Logs/3502/before-AFO-i-3502-15.txt',\
+      'C:/python/Logs/3503/before-AFO-i-3503-16.txt',\
+      'C:/python/Logs/3504/before-AFO.txt',\
+      'C:/python/Logs/3505/before-AFO.txt',\
+      'C:/python/Logs/4171/before-AFO.txt'
       ]
 
 
