@@ -22,7 +22,7 @@ This utility helps for instance to quickly determine biggest table in Cassandra 
 
 screenshot.png
 
-![alt text](https://raw.githubusercontent.com/merlix1/CassandraNodesAnalysis/master/CassandraNodesAnalysis/screenshot.png)
+![alt text](https://github.com/merlix1/CassandraNodesAnalysis/master/CassandraNodesAnalysis/screenshot.png)
 
  
 
