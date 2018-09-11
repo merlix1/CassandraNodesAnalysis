@@ -6,7 +6,7 @@ Cassandra provide a command "nodetool cfstats". This helps but in the context of
 
  
 
-I attach below a rough utility to parse cftats logs. There are much better tool to monitor Cassandra performance itself but in the context of a service request we have to rely on files provided by customer.
+I attach below a rough utility to parse cftats logs. There are much better tool to monitor Cassandra performance itself but this helps investigated a Cassandra node we don't have access to.
 
  
 
@@ -68,11 +68,11 @@ Then edit path in xavCassandraNodeAnalysis2 file to refer to your files which co
 
  
 
-path=['C:/Pega_Doc/python/Logs/3502/before-AFO-i-3502-15.txt',\
-      'C:/Pega_Doc/python/Logs/3503/before-AFO-i-3503-16.txt',\
-      'C:/Pega_Doc/python/Logs/3504/before-AFO.txt',\
-      'C:/Pega_Doc/python/Logs/3505/before-AFO.txt',\
-      'C:/Pega_Doc/python/Logs/4171/before-AFO.txt'
+path=['C:/python/Logs/3502/before-AFO-i-3502-15.txt',\
+      'C:/python/Logs/3503/before-AFO-i-3503-16.txt',\
+      'C:/python/Logs/3504/before-AFO.txt',\
+      'C:/python/Logs/3505/before-AFO.txt',\
+      'C:/python/Logs/4171/before-AFO.txt'
       ]
 
  
